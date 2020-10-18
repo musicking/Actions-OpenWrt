@@ -19,10 +19,11 @@ on:
       - main
     paths:
       - '.config'
-#  schedule:
-#    - cron: 0 8 * * 5
-#  watch:
-#    types: started
+  # 关闭定时执行By King. 2020年10月18日
+  #schedule:
+  #  - cron: 0 8 * * 5
+  watch:
+    types: started
 
 env:
   REPO_URL: https://github.com/musicking/openwrt18.06.git
